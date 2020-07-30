@@ -3,23 +3,17 @@ import React from "react";
 function SelfReport() {
   return (
     <div className="selfreport">
-      <div class="container">
+       <div class="container box2">
+      <div class="row align-items-center">
+      <div class="col-lg-12">
+            <h1 class="font-weight-light">Self-Report</h1>
+            <p>For the health and safety of all employees, we encourage you to report any changes in your health status. A personnel will reach out shortly to provide you with any resources, help or guidance you might need. </p>
+ 
+      </div>
+      </div>
         <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Self Report</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8U6cCzKEry0pz8bpX3qjhRhHxYB9dqY6wIsvvH6QEJggykw/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </div>
         </div>
       </div>
