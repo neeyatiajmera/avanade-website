@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+background-image: url("./images/solar-bkg.png");
+background-repeat: no-repeat;
+  background-size: cover;
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.box{
+padding: 0 5rem 5rem;
+text-align: center;
+color:whitesmoke;
+}
+h1{
+  padding: 3rem 0 0 1rem;
+  font-size: 5vw;
+}
+
+.group{
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.logo{
+width: 120px;
+height: auto;
+  padding: 0%;
 }
