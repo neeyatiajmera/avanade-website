@@ -8,7 +8,7 @@ function Navigation(props) {
         <div class="container">
           <Link class="navbar-brand" to="/">
           <img class ="logo"
-              src={require("./logo.jpg")}
+              src={require("./logo-tb.png")}
               alt="group"
             />
           </Link>
@@ -33,6 +33,15 @@ function Navigation(props) {
                 <Link class="nav-link" to="/">
                   Home
                   <span class="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li
+                class={`nav-item  ${
+                  props.location.pathname === "/dashboard" ? "active" : ""
+                }`}
+              >
+                <Link class="nav-link" to="/dashboard">
+                  Dashboard
                 </Link>
               </li>
               <li
