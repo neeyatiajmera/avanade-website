@@ -13,7 +13,7 @@ function CheckIn() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Contact</h1>
+            <h1 class="font-weight-light">CheckIn</h1>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8U6cCzKEry0pz8bpX3qjhRhHxYB9dqY6wIsvvH6QEJggykw/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </div>
         </div>
