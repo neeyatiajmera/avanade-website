@@ -1,7 +1,7 @@
 
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Home, CheckIn, SelfReport, Resources } from "./components";
+import { Navigation, Home, CheckIn, SelfReport, Resources, Dashboard } from "./components";
 function App() {
   return (
     <div className="App">
@@ -11,6 +11,7 @@ function App() {
           <Route path="/" exact component={() => <Home />} />
           <Route path="/checkin" exact component={() => <CheckIn />} />
           <Route path="/selfreport" exact component={() => <SelfReport />} />
+          <Route path="/dashboard" exact component={() => <Dashboard />} />
           <Route path="/resources" exact component={() => <Resources />} />
         </Switch>
       </Router>
